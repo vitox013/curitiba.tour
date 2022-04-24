@@ -85,7 +85,7 @@ span.copyright{
     font-size: 75%;
 }
 div#img01{
-    background-image: url(../images/centro-01-best-quality.jpg) ;
+    background-image: url(../images/centro-01-best-quality-menor.jpg) ;
     background-position: center bottom;
     min-height: 75%;
 }
@@ -134,6 +134,33 @@ footer p{
 }
 
 /* Para telas pequenas*/
+
+@media(max-width: 720px){
+    div#img01{
+        min-height: 75%;
+    }
+    div#img02, div#img03, div#img04 {
+        min-height: 75%;
+    }
+
+    section {
+        min-height: 25%;
+        padding: 20px;
+    }
+
+    section{
+        font-size: 100%;
+    }
+
+    span.copyright{
+        font-size: 60%;
+    }
+    
+    footer{
+        font-size: 70%;
+    }
+}
+
 
 @media(max-width: 390px){
     div#img01, div#img02, div#img03, div#img04{
