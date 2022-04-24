@@ -85,7 +85,7 @@ span.copyright{
     font-size: 75%;
 }
 div#img01{
-    background-image: url(../images/centro-01-best-quality-menor.jpg) ;
+    background-image: url(../images/centro-01-1700px.jpg) ;
     background-position: center bottom;
     min-height: 75%;
 }
@@ -101,12 +101,12 @@ div#img03{
 }
 
 div#img04{
-    background-image: url(../images/parque-tangua-medium-04.jpg);
+    background-image: url(../images/parque-tangua-1700px.jpg);
     background-position: center bottom;
 }
 
 div#img05{
-    background-image: url(../images/centro-01-best-quality.jpg) ;
+    background-image: url(../images/centro-01-1700px.jpg) ;
     background-position: center bottom;
     min-height: 100%;
 }
