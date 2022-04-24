@@ -143,13 +143,18 @@ footer p{
         min-height: 75%;
     }
 
+    div#img04 h2{
+        text-align: center;
+        width: 400px;
+    }
+
     section {
-        min-height: 25%;
+        min-height: 8%;
         padding: 20px;
     }
 
     section{
-        font-size: 100%;
+        font-size: 65%;
     }
 
     span.copyright{
