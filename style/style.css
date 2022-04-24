@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+:root{
+    --fonteTexto: 'Oswald', sans-serif;
+    --fonteTitle: 'Bebas Neue', cursive;
+    --fontSubTitle: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html, body{
+    height: 100%;
+    margin: 0%;
+}
+div#img01, div#img02, div#img03, div#img04, div#img05{
+    position: relative;
+    opacity: 0.70;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 75%;
+    background-attachment: fixed;
+}
+section{
+    padding: 50px 80px;
+    background-color: #f4f4f4;
+    font-family: var(--fonteTexto);
+    color: #666;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.356) inset;
+}
+
+h1{
+    position: absolute;
+    color: white;
+    background-color: #000;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    font-family: var(--fonteTitle);
+    font-size: 1.6em;
+    letter-spacing: 8px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.534);
+}
+
+h2{
+    color: #ddd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 8px;
+    font-size: 2em;
+    font-family: var(--fontSubTitle);
+    text-shadow:2px 2px rgba(0, 0, 0, 0.705) ;
+}
+
+abbr{
+    text-decoration: none;
+}
+section p{
+    max-width: 800px;
+    margin: auto;
+    text-indent: 40px;
+    text-align: justify;
+}
+
+span.copyright{
+    background-color: black;
+    position: absolute;
+    color: white;
+    bottom: 0px;
+    left: 0px;
+    padding: 5px;
+    border-radius: 0px 5px 0px 0px;
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.384);
+    font-size: 75%;
+}
+div#img01{
+    background-image: url(../images/centro-01-best-quality.jpg) ;
+    background-position: center bottom;
+    min-height: 75%;
+}
+
+div#img02{
+    background-image: url(../images/tubo-curitiba-02.jpg) ;
+    background-position: left bottom;
+}
+
+div#img03{
+    background-image: url(../images/mon-medium-03.jpg);
+    background-position: center bottom;
+}
+
+div#img04{
+    background-image: url(../images/parque-tangua-medium-04.jpg);
+    background-position: center bottom;
+}
+
+div#img05{
+    background-image: url(../images/centro-01-best-quality.jpg) ;
+    background-position: center bottom;
+    min-height: 100%;
+}
+
+
+
+footer{
+    background-color: #000;
+    color: #ddd;
+}
+
+a{
+    text-decoration: none;
+    color: #ddd;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer p{
+    text-align: center;
+    padding: 10px;
+    font-family: var(--fonteTexto);
+}
+
+/* Para telas pequenas*/
+
+@media(max-width: 390px){
+    div#img01, div#img02, div#img03, div#img04{
+        min-height: 60%;
+        background-attachment: scroll;
+    }
+
+    section {
+        min-height: 40%;
+        padding: 20px;
+    }
+
+    section{
+        font-size: 75%;
+    }
+
+    h1{
+      font-size: 80%;
+    }
+
+    h2{
+        font-size: 70%;
+    }
+
+    span.copyright{
+        font-size: 50%;
+    }
+    
+    footer{
+        font-size: 70%;
+    }
+}
+
+@media(max-width: 350px){
+    div#img01, div#img02, div#img03, div#img04{
+        min-height: 50%;
+        background-attachment: scroll;
+    }
+
+    section {
+        min-height: 50%;
+        padding: 20px;
+    }
+
+    section{
+        font-size: 70%;
+    }
+
+    h1{
+      font-size: 80%;
+    }
+
+    h2{
+        font-size: 70%;
+    }
+
+    div#img04 h2{
+        width: 180px;
+    }
+
+    span.copyright{
+        font-size: 50%;
+    }
+    
+    footer{
+        font-size: 70%;
+    }
+}
